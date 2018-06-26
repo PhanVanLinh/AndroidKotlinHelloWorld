@@ -14,7 +14,9 @@ class FindViewByIdActivity : AppCompatActivity() {
     setContentView(R.layout.activity_find_view_by_id)
 
     val textView = findViewById<TextView>(R.id.text_1)
-    textView2 = findViewById<TextView>(R.id.text_2)
-    textView3 = findViewById<TextView>(R.id.text_3)
+    textView2 = findViewById(R.id.text_2)
+    textView3 = findViewById(R.id.text_3)
+
+    textView.text = "Text 1"
   }
 }
