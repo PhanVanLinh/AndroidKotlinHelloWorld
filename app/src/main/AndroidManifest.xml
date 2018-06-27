@@ -21,6 +21,9 @@
         <activity android:name=".WhenExpressionActivity">
         </activity>
         <activity android:name=".RangeActivity">
+
+        </activity>
+        <activity android:name=".FunctionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
