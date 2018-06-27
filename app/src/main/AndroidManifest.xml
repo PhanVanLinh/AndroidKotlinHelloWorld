@@ -19,6 +19,8 @@
 
         </activity>
         <activity android:name=".WhenExpressionActivity">
+        </activity>
+        <activity android:name=".RangeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
