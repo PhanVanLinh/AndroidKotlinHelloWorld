@@ -14,9 +14,11 @@
         <activity android:name=".FindViewByIdActivity">
         </activity>
         <activity android:name=".ClickListenerActivity">
-
         </activity>
         <activity android:name=".LoopActivity">
+
+        </activity>
+        <activity android:name=".WhenExpressionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

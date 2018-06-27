@@ -6,8 +6,9 @@ import android.util.Log
  * Created by PhanVanLinh on 27/06/2018.
  * phanvanlinh.94vn@gmail.com
  */
+const val TAG: String = "Loop";
+
 class Loop {
-  val TAG: String = "Loop";
 
   fun forLoop() {
     val items = listOf("apple", "banana", "kiwifruit")
