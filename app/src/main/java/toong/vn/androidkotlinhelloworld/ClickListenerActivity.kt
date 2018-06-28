@@ -19,7 +19,7 @@ class ClickListenerActivity : AppCompatActivity() {
 
     textView = findViewById(R.id.textview)
     textView.setOnClickListener {
-      Toast.makeText(this@ClickListenerActivity, "s", Toast.LENGTH_SHORT).show();
+      Toast.makeText(this@ClickListenerActivity, "s", Toast.LENGTH_SHORT).show()
     }
   }
 }

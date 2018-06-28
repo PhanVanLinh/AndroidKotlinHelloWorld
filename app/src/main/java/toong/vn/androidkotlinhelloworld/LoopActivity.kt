@@ -5,6 +5,10 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
 import toong.vn.androidkotlinhelloworld.syntax.Loop
 
+fun dasd(){
+
+}
+
 class LoopActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {

@@ -28,11 +28,21 @@ class DefineFunction {
     Log.i(TAG, "first = $first")
   }
 
-  fun testDefaultMultipleArgumentValue(first: Int, second: Int=2, third: Int) {
+  fun testDefaultMultipleArgumentValue(first: Int, second: Int = 2, third: Int) {
     Log.i(TAG, "first = $first")
     Log.i(TAG, "second = $second")
     Log.i(TAG, "third = $third")
   }
 
+  fun foo(first: Int = 0, second: Int = 1, qux: () -> Unit) { /* ... */
+  }
+
   fun double(x: Int): Int = x * 2
+
+  fun testVararg(vararg args: String) {
+    for (t in args) {
+      Log.i(TAG, "t = $t")
+    }
+  }
+
 }
